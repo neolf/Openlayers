@@ -52,8 +52,10 @@
           </div>
 
           <div data-role="footer">
-            <a href="#searchpage" data-icon="search" data-role="button">查找</a>
+            <!--
+			<a href="#searchpage" data-icon="search" data-role="button">查找</a>
             <a href="#" id="locate" data-icon="locate" data-role="button">返回中心点</a>
+			-->
 			<a href="#layerspage" data-icon="layers" data-role="button">切换景区</a>
           </div>
           <div id="navigation" data-role="controlgroup" data-type="vertical">
@@ -82,6 +84,11 @@
           <div data-role="header">
             <h1>切换景区</h1>
           </div>
+		  <div data-role="fieldcontain">
+            <input type="search" name="query" id="query"
+                   value="" placeholder="Search for places"
+                   autocomplete="off"/>
+          </div>
           <div data-role="content">
             <ul data-role="listview" data-inset="true" data-theme="d" data-dividertheme="c" id="layerslist">
             </ul>
@@ -98,6 +105,55 @@
             </div>
         </div>
 		
+    <!-- Piwik --> 
+
+<script type="text/javascript">
+
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://124.238.214.32/piwik/" : "http://124.238.214.32/piwik/");
+
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script><script type="text/javascript">
+
+try {
+
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+
+piwikTracker.trackPageView();
+
+piwikTracker.enableLinkTracking();
+
+} catch( err ) {}
+
+</script><noscript><p><img src="http://124.238.214.32/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+
+<!-- End Piwik Tracking Code -->
+
+<script type="text/javascript">
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-29432345-1']);
+
+  _gaq.push(['_setDomainName', '3dyou.cn']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
+
+
+
+</script>
 		
     </body>
 </html>
