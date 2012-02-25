@@ -232,11 +232,11 @@ var init = function (onSelectFeatureFunction) {
 				{ "id": "0/237/navi", "type": "Feature", "geometry": {"type": "Point", "coordinates": [-6701566,1944843]},
                     "properties": {"Name": "华表"}},
 				{ "id": "0/315/navi", "type": "Feature", "geometry": {"type": "Point", "coordinates": [-1428454,2054627]},
-                    "properties": {"Name": "花房1", "Country":"Austria", "City":"Graz"}},
+                    "properties": {"Name": "花房1"}},
 				{ "id": "0/315/navi", "type": "Feature", "geometry": {"type": "Point", "coordinates": [-5195271,1242560]},
-                    "properties": {"Name": "花房2", "Country":"Austria", "City":"Graz"}},
+                    "properties": {"Name": "花房2"}},
 				{ "id": "0/304/navi", "type": "Feature", "geometry": {"type": "Point", "coordinates": [-322869,-1159474]},
-                    "properties": {"Name": "荷花池", "Country":"Austria", "City":"Graz"}}
+                    "properties": {"Name": "荷花池"}}
             ];
 		var results = {
             "type": "FeatureCollection",
